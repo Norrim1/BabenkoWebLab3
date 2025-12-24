@@ -1,0 +1,14 @@
+{
+  "name": "BabenkoWebLab3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Norrim1 <danilbabenko76840@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.97.1"
+  },
+  "scripts": {
+    "sass:dev": "sass --watch <source dir>:<out dir>",
+    "sass:prod": "sass --no-source-map --style compressed <source dir>:<out dir>"
+  }
+}
