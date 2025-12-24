@@ -2,8 +2,8 @@ $(function () {
     let index = 0;
     const cards = $('.skill-card');
 
-    $('.burger').on('click', function () {
-      $('.nav').slideToggle();
+    $('.header__burger').on('click', function () {
+      $('.header__nav').slideToggle();
     });
   
     $('#openModal').on('click', () => $('#modal').addClass('modal--active'));
