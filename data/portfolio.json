@@ -1,0 +1,18 @@
+[
+    {
+      "image": "images/dmcapp.png",
+      "title": "DMC App",
+      "description": "Приложение для создания DMC картинки для вышивки"
+    },
+    {
+      "image": "images/mongo.png",
+      "title": "Mongo Client",
+      "description": "Веб клиент для взаимодействия с MongoDB"
+    },
+    {
+      "image": "images/users.png",
+      "title": "Mobile App",
+      "description": "Мобильное приложение позволяющее скачивать данные из API и подгружать их на локальную базу данных"
+    }
+  ]
+  

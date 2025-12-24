@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+
+.section {
+    padding: $spacing-xl 0;
+  
+    &--gray {
+        background-color: var(--bg-gray);
+    }
+}

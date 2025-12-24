@@ -1,0 +1,26 @@
+@use '../utils/variables' as *;
+
+.portfolio-card {
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    padding: 15px;
+    border-radius: $border-radius;
+    text-align: center;
+  
+    &__img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+  
+    &__title {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+  
+    &__desc {
+      font-size: $font-size-small;
+      color: var(--text-color);
+    }
+}

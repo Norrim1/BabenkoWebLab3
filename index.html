@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Бабенко Портфолио</title>
+  <link rel="stylesheet" href="dist/css/styles.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <img src="images/icon.png">
+      </div>
+      <p>Бабенко Данил Викторович / Norrim</p>
+      <button class="burger">Темы</button>
+      <nav class="nav">
+        <a href="#about">О себе</a>
+        <a href="#skills">Навыки</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>О себе</h2>
+      <p>Студент 3 курса Кемеровского Государственного Университета Института Цифры</p>
+      <p>В данный момент, обучаясь по программе, изучаю способы проектирования для создания моделей Информационных систем.</p>
+      <p>Изучаю такие направления разработки как мобильная разработка, веб-разработка, разработка параллельных приложений и другие.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section section--gray">
+    <div class="container">
+      <h2>Навыки</h2>
+      <div class="skills">
+        <div class="skill-card">
+          <h3>Программная инженерия</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--level: 95%"></div>
+          </div>
+          <span>95%</span>
+        </div>
+        <div class="skill-card">
+          <h3>Методы вычислений</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--level: 76%"></div>
+          </div>
+          <span>76%</span>
+        </div>
+        <div class="skill-card">
+          <h3>Технологии параллельных вычислений</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--level: 63%"></div>
+          </div>
+          <span>63%</span>
+        </div>
+        <div class="skill-card">
+          <h3>Разработка мобильных приложений</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--level: 56%"></div>
+          </div>
+          <span>56%</span>
+        </div>
+        <div class="skill-card">
+          <h3>Компьютерная графика</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--level: 54%"></div>
+          </div>
+          <span>54%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <div class="portfolio" id="portfolioContainer"></div>
+  </section>
+
+  <section id="contacts" class="section section--gray">
+    <div class="container">
+      <h2>Контакты</h2>
+      <ul class="contacts">
+        <li>Email: danilbabenko@mail.com</li>
+        <li>Телефон: 8-923-600-00-00</li>
+      </ul>
+    </div>
+
+    <button id="openModal" class="btn">Написать мне</button>
+
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <span class="modal__close">&times;</span>
+        <form id="feedbackForm">
+          <input type="text" id="name" placeholder="Имя" required>
+          <input type="email" id="email" placeholder="Email" required>
+          <textarea id="message" placeholder="Сообщение"></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+  
+    <button id="toTop" class="btn">В начало</button>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>2025</p>
+    </div>
+  </footer>
+
+</body>
+</html>
